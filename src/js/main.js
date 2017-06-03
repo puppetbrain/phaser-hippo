@@ -13,6 +13,8 @@ var game = new Phaser.Game(945, 582, Phaser.AUTO);
 //   player.points += 20;
 // }
 
+// TEST
+
 // var windowW = document.documentElement.clientWidth;
 // console.log(`The window width ${windowW}`)
 var isAnimPlaying = false
