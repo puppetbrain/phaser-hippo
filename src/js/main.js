@@ -21,7 +21,7 @@ var isAnimPlaying = false
 
 
 var GameState = {
-  preload: function() {
+  preload: function() {``
     this.load.image('background', 'images/background.png');
     // this.load.image('hippo', 'images/hippo.png');
     // this.load.image('herby', 'images/herby.png');
@@ -126,7 +126,7 @@ var GameState = {
   animateAnimal: function(sprite, event) {
     if (isAnimPlaying === false) {
       sprite.play('animate');
-      sprite.customParams.sound.play();
+      sprite.customParams.sound.play();``
       isAnimPlaying = true;
     } 
   },
